@@ -5,8 +5,7 @@ public class StringFunctions {
 		String str1 = "the rain have been started";
 		//to get the size/length or total numbers of chars;
 		int l=str1.length();
-		System.out.println("total chars: "+l);
-		
+		System.out.println("total chars: "+l);		
 		
 		//compare: equals,equalsIgnoreCase,contains	
 		String str2 = "The rain have been started";
@@ -30,7 +29,13 @@ public class StringFunctions {
 		System.out.println(str1.charAt(25));
 		System.out.println(str1.charAt(0));
 		
-		//split; substring:
+		//substring: to get the part of the string.
+		System.out.println(str1.substring(19));
+		System.out.println(str1.substring(14));
+		System.out.println(str1.substring(9));
+		System.out.println(str1.substring(4, 8));
+		System.out.println(str1.substring(9,13));
+		System.out.println(str1.replace("rain", "kkkk"));
 		
 	}
 
