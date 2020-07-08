@@ -1,0 +1,31 @@
+1.ReverseString
+2.Factorial Print
+3.ReverseStringUsingScanner
+4.FactorialUsingScanner
+
+
+Homework:
+1. Calculate array total or sum;
+ int[] sum = new int{23,10,8,9,34,50}
+
+
+
+Static: 
+1. static mean constant value, it won't change everytime.
+2. We can declare the methods and variables using the static keyword
+3. This is one time declaration
+4. IN the static methods we can call only static struff.
+5. These are the class variables
+6. Not required to create object
+
+
+
+Non-static:
+1. It is not constant value, it'll change every time
+2. No Keyword like that
+3. every time declaration
+4. We can call static and non-static methods and variables
+5. these are the Object variables
+6. Must and should create the object 
+
+
