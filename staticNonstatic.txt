@@ -5,6 +5,7 @@
 
 
 Homework:
+0. print 3*3 two dim arrays using for loop condition
 1. Calculate array total or sum;
  int[] sum = new int{23,10,8,9,34,50}
 
