@@ -1,0 +1,25 @@
+Public: These methods and variables we can call any where in the project 
+or in any of the other package class.
+public int a;
+
+public void test1(){
+	System.out.println("public method");
+}
+
+Private: These methods and variables we can call only with in the class, 
+we can't call in other class or other package class.
+private int b;
+
+private void test1(){
+	System.out.println("public method");
+}
+
+
+Protected: These methods and variables we can call with in the class and subclass only.
+we can't call other package class.
+
+
+default: variables we can call with in the method only.
+
+
+
