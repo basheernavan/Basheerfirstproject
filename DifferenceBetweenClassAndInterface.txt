@@ -1,0 +1,19 @@
+Class:
+1. Class Create with Class keyword
+2. we can create static final variables and normal variables, mean can redeclare the variable value.
+3. We can create public, private, protected and default.
+4. We can create the body for methods
+5. We can create the static methods
+6. To extend the class we can use keyword "extends"
+7. Not required to declare the variable value.
+
+
+Interface:
+1. Interface Create with the Interface Keyword.
+2. All the variables are Static final, we can't redeclare the Variable value.
+3. All the Methods are public methods
+4. No body for methods
+5. no static methods
+6. To extend the class we can use keyword "impliments"
+7. Must and should declare the variable value.
+

@@ -8,5 +8,6 @@ public class CallStaticMethodsDirectly extends StaticNonStatic{
 		test4();
 		System.out.println(c1);
 	}
+	
 
 }

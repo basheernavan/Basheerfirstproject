@@ -45,4 +45,28 @@ public class StaticNonStatic {
 	private static void test8(){
 		System.out.println("Executing private static methods test8");
 	}
+	
+	public static void main(String[] args) {
+		test3();
+		test4();
+		test7();
+		test8();
+		
+		//To call private non-static methods we need to create the object
+		StaticNonStatic ssn = new StaticNonStatic();
+		ssn.test5();
+		ssn.test6();
+		System.out.println(ssn.b1);
+		System.out.println(ssn.b2);
+		System.out.println(ssn.d1);
+		System.out.println(ssn.d2);
+		ssn.test1();
+		ssn.test2();
+		
+	}
+	
+	
+	
+	
+	
 }
