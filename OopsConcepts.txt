@@ -1,0 +1,48 @@
+Oops concepts:
+1. Inharitance
+2. Polimorphisam
+3. Abstraction
+4. Encapsulation
+
+1. Inharitance: Java is a mechanisam one object acquires all the properties
+ and bahaviours of a parent object.
+ Parent class contains some methods and variables,
+ these methods and variables we can use in the child class(using the extends.)
+ 
+ public class A extends B{
+ 
+ }
+ 
+ B: is the Super class or parent class.
+ A is the child class or subclass
+ so, A class can use the methods and variables from B class.
+ 
+ Inharitance is 3 types:
+ 1. Simple or single level inharitance
+ 2. Multi level inharitance
+ 3. Hiracle inharitance.
+ 
+ 1. Single Inharitance: extends one class to another class only.
+ A --> B
+ 
+ 2. Multi level: A --> B --> C
+ 
+ //Homework:
+ Create ClassD, ClassE, ClassF
+and create all the methods and variables as static then call without creating object.
+ 
+ 3. Hirarcle inharitance:
+ X --> Y
+ X --> Z
+ 
+ ===================================================================================
+ 2. Polimorphisam:
+ Polimorphisam is two types:
+ 1. Method overloading: Creating multiple methods on same name with different parameters
+ is called method overloading.
+ 
+ 2. Method overriding: Creating one method in one class and overriding in another class
+ is called method overrriding.
+ 
+ 
+ 
