@@ -42,7 +42,28 @@ and create all the methods and variables as static then call without creating ob
  is called method overloading.
  
  2. Method overriding: Creating one method in one class and overriding in another class
- is called method overrriding.
+ is called method overriding.
+ 
+ ====================================================================================
+ 3. Abstraction: abstraction mean only declaration of the methods or no body for methods.
+ Abstract class mean we can create abstract methods and non-abstract methods 0-100% abstraction
+ abstract methods we can impliment only in the classes. not in interfaces.
+ abstract class and abstract methods create using the keyword abstract.
+ 
+ Interface: we can create only abstract methods. 100% abstraction.
+ 
+ 
+ Mobile:
+ 1. Calling
+ 2. Messaging
+ 3. Camera
+ 4. Videocalling
+ 5. Watsupmessage
+ 6. Music
+ 
+ 
+ 
+ 
  
  
  
