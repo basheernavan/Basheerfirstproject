@@ -60,6 +60,22 @@ and create all the methods and variables as static then call without creating ob
  4. Videocalling
  5. Watsupmessage
  6. Music
+ ============================================================================================
+ 4.Encapsulation: Encapsulation means binding the object state(fields) and behaviour(methods) together.
+ mean hiding the implementation of the user details.
+ in the encapsulation all the variables will declare as private.
+ Encapsulation having or declaring Getter and Setter methods.
+ 
+ 
+ ===========================================================================================
+ 5. Constructor: constructor is a special type of method in java.
+ constructor is block of code that initialize the global variables.
+ constructor will create using the class name.
+ there is no return type for constructor.
+ constructor will call or it'll be auto execute
+ Constructor is mainly two types:
+ 1. Basic constructor 
+ 2. Parameter constructor
  
  
  
