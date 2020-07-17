@@ -1,0 +1,25 @@
+1. Differences between ArrayList and Array.
+ArrayList:
+1. There is no fixed length
+2. Array List is a class
+3. ArrayList We can add, Remove.
+
+
+
+Array:
+1. Fixed length
+2. Array is a concept of Java.
+3. We can't do add and Remove.
+
+
+2. HashTable: Hash table also one of most important java collection,
+this will work based on the key and value.
+using the key we can get the value.
+
+3. HashMap: Hashmap also one of the most important java collection,
+it'll work similar to Hashtable, and we can create using the key and value pair.
+
+
+
+
+
