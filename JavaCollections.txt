@@ -19,6 +19,35 @@ using the key we can get the value.
 3. HashMap: Hashmap also one of the most important java collection,
 it'll work similar to Hashtable, and we can create using the key and value pair.
 
+=========================================================================================
+What are the differences between HashMap and Hashtable?
+HashMap: key and value pair.
+1. HashMap is a non-synchronized. It is not-thread safe and can't be shared 
+between many threads without proper synchronization code.
+2. HashMap allow only one key and multiple null values.
+3. HashMap is faster than Hashtable.
+4. This HashMap implemented on as new class from JDK 1.2.
+5. We can make HashMap as a synchronzed by calling this code 
+Map m= Collections.synchronizedMap(HashMap);
+6. HashMap is traversed by Iterator
+7. HashMap inherits Abstractmap class. 
+
+
+HashTable: key and value pair
+1. Hashtable is synchronized. It is thread safe and can be shared with many threads.
+2. It does not allow any null key and null values.
+3. It is very slow.
+4. Hashtable is a inbuilt or legacy class.
+5. Hashtable is internally synchronized and can't required any code.
+6. Hashtable is traversed by Enumerator and Iterator.
+7. Hashtable inherits Dictionary class.
+
+
+
+
+
+
+
 
 
 

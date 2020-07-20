@@ -1,0 +1,28 @@
+JUnit - Annotations:
+1. JUnit is popular framework of Java
+2. Developers can use this JUnit while executing their unit test cases.
+3. QA people can use this Junit while executing their selenium or any other test cases.
+4. JUnit contains few annotations.
+5. Using these annotations we can decrease the length of the programe code or testing code.
+6. Instead of main method we can use the Junit to execute java programs
+7. While executing our java programs using these annotations it'll auto execute,
+not required to call everytime like a function.
+
+Configure Junit: Right click on the project folder --> properties --> Libraries tab
+--> Add Library --> select JUnit --> Junit4 from dropdown box --> click FInish --> click OK.
+
+Annotations:
+1. @Before: This method will execute before Execution of every method.
+
+2. @After: This method will execute after execution of every method.
+
+3. @BeforeClass: This method will execute before execution of every class.
+
+4. @AfterClass: This method will execute after execution of every class.
+
+5. @Test: Instead of execution using the main method we can use 
+Junit then need to execute using the @Test annotation
+
+6. @Ignore: If we don't want to execute the test then we can use this annotation.
+
+
