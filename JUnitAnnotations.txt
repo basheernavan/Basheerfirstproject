@@ -7,6 +7,8 @@ JUnit - Annotations:
 6. Instead of main method we can use the Junit to execute java programs
 7. While executing our java programs using these annotations it'll auto execute,
 not required to call everytime like a function.
+8. We can check the console report, how many cases are passed how many failed.
+
 
 Configure Junit: Right click on the project folder --> properties --> Libraries tab
 --> Add Library --> select JUnit --> Junit4 from dropdown box --> click FInish --> click OK.
@@ -24,5 +26,27 @@ Annotations:
 Junit then need to execute using the @Test annotation
 
 6. @Ignore: If we don't want to execute the test then we can use this annotation.
+
+Order of JUnit annotations Execution:
+
+1. @BeforeClass
+2. @Before
+3. @Test
+4. @After
+5. @AfterClass
+
+Example:
+
+Executing before class
+Executing before Method
+Executing JUnit test1
+Executing after Method
+Executing before Method
+Executing JUnit test2
+Executing after Method
+Executing before Method
+Executing JUnit test3
+Executing after Method
+Executing After class
 
 
