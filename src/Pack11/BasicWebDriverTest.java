@@ -7,7 +7,6 @@ public class BasicWebDriverTest {
 	public static void main(String[] args) {
 		//Set system property for chrome driver: 
 		System.setProperty("webdriver.chrome.driver", "resources/drivers/chromedriver.exe");
-		
 		//create object for webdriver:
 		WebDriver driver = new ChromeDriver();
 		driver.get("http://www.google.com");
