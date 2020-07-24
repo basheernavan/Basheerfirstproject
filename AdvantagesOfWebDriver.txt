@@ -1,0 +1,83 @@
+Download webdriver:  https://www.selenium.dev/downloads/
+Open source tools:
+1. Selenium-webdriver: Web based applications
+2. Sahi : Web based applications
+3. Sikuli : Web based applications
+4. AutoIT : Web based applications and windows based
+5. Cypress
+6. Katalan Studio(Community edition and standard/professional/paid version)
+it can support web based and windows based applications.
+7. winium - developed based on selenium it can support windows based applications
+
+Using Appium: we can test any type of android mobile(Nokia, Samsug, RedMi, Oppo, etc...)
+and we can test iPhone(apple phone).
+
+
+Paid:
+1. QTP - UFT
+2. Katalan Studio
+3. Microsoft automation tool.
+
+
+Advantages of WebDriver:
+1. Open Source: Free tool. 
+
+2. Many Languages support: webdriver can support many languages,
+PHP, phython, ruby, java, javascript, C#, etc... 
+these type of programing languages can support.
+
+3. Multiple Operating systems:
+Windows, Unix, linux(Kali, Ubuntu, Centos), Mac as well.
+
+4. Cross Browser:
+Webdriver can support Chrome, firefox, IE, Edge, Opera, Safari, etc...
+webdriver is provide exe files for these browsers.
+
+5. Multiple Frameworks:
+Webdriver can integrate with various build tools/frameworks like
+ANT and Maven. and we can integrate with Java frameworks like JUnit
+and TestNG.
+
+6. Devices:
+Using webdriver we can test Android mobile, iPhone, desktop, iPad and tablet.
+
+7. Easy Implementation:
+there is no much installation, just we can download webdriver jar and 
+we can add in the external jars in Eclipse.
+
+8. Mouse Cursor and Keyboard Simulation:
+Webdriver can do real user scenario by handling mouse and keyboard events.
+like using function keys F1, F2, Escape, Enter, control, Tab, etc... 
+keyboard keys usage we can handle with webdriver.
+
+9. Not Required to Start the browser:
+In selenium RC need to start the browser but in webdriver
+not required to start the browser.
+
+10. Browser Interactions:
+Webdriver can do the advanced browser interactions like browser back button,
+farward button, browser refresh.
+
+11. Integration:
+We can integrate any of the tools or add-ons.
+JUnit, TestNG, ANT, MAVEN, Cucumber, etc...
+
+
+Disadvatages:
+1. Webdriver can support only Web based application.
+2. There is no online for webdriver
+3. There is no recording tool in webdriver or there is no UI.
+
+download the exe files:
+chromedriver.exe : https://chromedriver.chromium.org/downloads
+				   https://chromedriver.chromium.org
+https://chromedriver.storage.googleapis.com/index.html?path=84.0.4147.30/
+
+
+https://developer.microsoft.com/en-us/microsoft-edge/tools/webdriver/
+
+
+
+
+
+

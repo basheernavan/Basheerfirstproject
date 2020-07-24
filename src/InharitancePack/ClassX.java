@@ -1,4 +1,5 @@
 package InharitancePack;
+//X is the Super Class
 
 public class ClassX {
 	
