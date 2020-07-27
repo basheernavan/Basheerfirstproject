@@ -1,0 +1,35 @@
+WebDriver Functions or methods:
+1. Click:    Links, buttons, radio buttons, checkboxes
+
+2. Sendkeys: dropdown boxes and Edit boxes/text boxes
+
+
+What are the elements in the application:
+1. Links                 1
+2. Buttons/images        1
+3. Checkboxes            1
+4. Dropdownboxes         2
+5. Radios buttons        1
+6. Edit boxes/text boxes 2
+
+
+Locators or Properties:
+1. id     is very in the locators.
+2. name: 
+3. className
+4. LinkText
+5. Xpath relative
+6. Xpath html(root level path)
+7. TagName
+8. partiallinkText
+9. CssSelector
+
+Create different types of xpaths:
+1. //*[@class='gb_7a']
+2. //*[@name='identifier']
+3. //*[@id='email']
+4. //*[text()='Sign in']
+5. //*[contains(text(),'Sign in')]
+
+
+
