@@ -9,5 +9,6 @@ public class Chromebrowser {
 		WebDriver driver = new ChromeDriver();
 		driver.get("http://google.com");
 		driver.manage().window().maximize();
+		
 	}
 }

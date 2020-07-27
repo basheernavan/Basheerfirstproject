@@ -6,9 +6,11 @@ public class EdgeBrowser {
 		System.setProperty("webdriver.edge.driver", "resources/drivers/msedgedriver.exe");
 		WebDriver driver = new EdgeDriver();
 		driver.get("http://google.com");
-		driver.manage().window().maximize();
+		//driver.manage().window().maximize();
 		
-		driver.quit();
+		//driver.quit();
 	}
+
+	
 
 }
