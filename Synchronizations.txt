@@ -1,0 +1,24 @@
+In webdriver we have 2 types of Synchronization functions.
+
+1. Implicit wait:
+ 	1. Implicitly wait: 
+ 	2. Pageload timeout:
+ Whenever we are using these implicit wait option, these functions will applicable
+  to all the lines of code or it'll execute entire project.
+  driver.manage().timeouts().implicitlyWait(5, TimeUnit.SECONDS);
+  webdriver will wait until this maximum time(2 seconds) for each and every line of the code. 
+  
+  Pageload timeout: Webdriver will wait until each and every page to load until this maximum time.
+  driver.manage().timeouts().pageLoadTimeout(10, TimeUnit.SECONDS);
+  if the page is loaded with in 2seconds it won't wait for remaining 8 seconds.
+
+
+2. Explicit wait: Webdriver will wait until this constant time and this 
+	will applicable for that particular line
+	1. Thread.sleep: this java based wait option.
+	Ex: Thread.sleep(5000);
+	
+	2. WebdriverWait: Webdriver will wait until this maximum time and this 
+	will applicable for that particular line.
+	
+	
