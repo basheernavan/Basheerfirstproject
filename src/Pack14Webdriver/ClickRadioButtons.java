@@ -22,5 +22,4 @@ public class ClickRadioButtons {
 		//driver.findElement(By.cssSelector("body > table:nth-child(4) > tbody > tr:nth-child(1) > td:nth-child(2) > table > tbody > tr > td > div:nth-child(14) > input[type=radio]:nth-child(6)")).click();
 		
 	}
-
 }
