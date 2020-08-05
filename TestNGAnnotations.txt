@@ -1,0 +1,38 @@
+Advantages of TestNG Annotations:
+1. TestNG is also Java popular framework
+2. This framework can be used by testers as well as developers
+3. It is advanced version of Junit
+4. Using this Testng we can decrease the length of the program code.
+5. Comparing to JUnit it contains more annotations.
+6. It can generate the temparary result as well as HTML reports.
+7. Using TestNG annotations we can read the data from the flat file(any of the data file)
+8. Using Testng we can do the parallel execution also.
+9. Using testng we can do group execution also.
+
+TestNG Annotations:
+1. @Test: this method will execute the test case, test case execution enabled true.
+
+2. @Test(enabled=false): This is ignore annoation, mean test case execution enabled false.
+
+3. @BeforeMethod: This method will execute before execution of every method.
+
+4. @AfterMethod: This method will execute after execution of every method.
+				 Ex: if we have 5 tests, this method will execution 5 times.
+				 
+5. @BefreClass: This method will execute before execution of every class.
+
+6. @AfterClass: This method will execute after execution of every class.
+															---- upto this same as JUnit annotations.
+
+7. @BeforeTest: This method will execute before Execution of every test
+ 
+8. @AfterTest: This method will execute after execution of every test
+
+9. @BeforeSuite: THis method will execute before execution of every suite.
+
+10. @AfterSuite: This method will execute after execution of every suite.
+
+11. @DataProvider: Using this annotation we can provide the data to the test case 
+								and execute multiple times.
+
+
