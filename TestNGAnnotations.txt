@@ -8,6 +8,7 @@ Advantages of TestNG Annotations:
 7. Using TestNG annotations we can read the data from the flat file(any of the data file)
 8. Using Testng we can do the parallel execution also.
 9. Using testng we can do group execution also.
+10. We can execute multiple test cases at a time using testng xml file
 
 TestNG Annotations:
 1. @Test: this method will execute the test case, test case execution enabled true.
@@ -34,5 +35,35 @@ TestNG Annotations:
 
 11. @DataProvider: Using this annotation we can provide the data to the test case 
 								and execute multiple times.
+								
+
+Order of TestNG annotations execution:
+Executing Before Suite
+Executing before test or Scenario
+Executing before class
+Executing before method
+Executing testng test1 method
+Executing after method
+Executing before method
+Executing testng test2 method
+Executing after method
+Executing after class
+Executing after test or scenario
+PASSED: test1
+        this test case is for login
+PASSED: test3
+        this test case is for registration
+
+===============================================
+    Default test
+    Tests run: 2, Failures: 0, Skips: 0
+===============================================
+
+Executing after suite
+
+===============================================
+Default suite
+Total tests run: 2, Failures: 0, Skips: 0
+===============================================
 
 
