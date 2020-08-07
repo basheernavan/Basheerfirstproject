@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="5" passed="5">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="87" started-at="2020-08-06T17:47:35Z" finished-at="2020-08-06T17:47:35Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="87" started-at="2020-08-06T17:47:35Z" finished-at="2020-08-06T17:47:35Z">
+      <class name="Pack16TestNG.ExecutionOnPriorityBased">
+        <test-method status="PASS" signature="google()[pri:1, instance:Pack16TestNG.ExecutionOnPriorityBased@31b7dea0]" name="google" duration-ms="24" started-at="2020-08-06T23:17:35Z" finished-at="2020-08-06T23:17:35Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- google -->
+        <test-method status="PASS" signature="mycar()[pri:2, instance:Pack16TestNG.ExecutionOnPriorityBased@31b7dea0]" name="mycar" duration-ms="2" started-at="2020-08-06T23:17:35Z" finished-at="2020-08-06T23:17:35Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- mycar -->
+        <test-method status="PASS" signature="rolesRoys()[pri:3, instance:Pack16TestNG.ExecutionOnPriorityBased@31b7dea0]" name="rolesRoys" duration-ms="1" started-at="2020-08-06T23:17:35Z" finished-at="2020-08-06T23:17:35Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- rolesRoys -->
+        <test-method status="PASS" signature="audi()[pri:4, instance:Pack16TestNG.ExecutionOnPriorityBased@31b7dea0]" name="audi" duration-ms="2" started-at="2020-08-06T23:17:35Z" finished-at="2020-08-06T23:17:35Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- audi -->
+        <test-method status="PASS" signature="maruthi()[pri:5, instance:Pack16TestNG.ExecutionOnPriorityBased@31b7dea0]" name="maruthi" duration-ms="6" started-at="2020-08-06T23:17:35Z" finished-at="2020-08-06T23:17:35Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- maruthi -->
+      </class> <!-- Pack16TestNG.ExecutionOnPriorityBased -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
