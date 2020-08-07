@@ -8,7 +8,7 @@ import org.openqa.selenium.chrome.ChromeDriver;
 public class Dropdownbox {
 	@Test
 	public void multipleCheckboxes() throws InterruptedException {
-		System.setProperty("webdriver.chrome.driver", "E:/SeleniumSoftwares/drivers/chromedriver.exe");
+		System.setProperty("webdriver.chrome.driver", "resources/drivers/chromedriver.exe");
 		WebDriver driver = new ChromeDriver();
 		driver.get("https://www.ebay.com/");
 		driver.findElement(By.id("gh-cat")).click();
