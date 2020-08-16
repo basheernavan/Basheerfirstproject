@@ -271,10 +271,11 @@ public class XLS_Reader {
 	    hlink_style.setFont(hlink_font);
 	    //hlink_style.setWrapText(true);
 
-	    XSSFHyperlink link = createHelper.createHyperlink(XSSFHyperlink.LINK_FILE);
-	    link.setAddress(url);
-	    cell.setHyperlink(link);
-	    cell.setCellStyle(hlink_style);
+		/*
+		 * XSSFHyperlink link = createHelper.createHyperlink(XSSFHyperlink.LINK_FILE);
+		 * link.setAddress(url); cell.setHyperlink(link);
+		 * cell.setCellStyle(hlink_style);
+		 */
 	      
 	    fileOut = new FileOutputStream(path);
 		workbook.write(fileOut);
@@ -338,7 +339,7 @@ public class XLS_Reader {
 			
 		XSSFCellStyle style = workbook.createCellStyle();
 		style.setFillForegroundColor(HSSFColor.GREY_40_PERCENT.index);
-		style.setFillPattern(HSSFCellStyle.SOLID_FOREGROUND);
+		//style.setFillPattern(HSSFCellStyle.SOLID_FOREGROUND);
 		
 		sheet=workbook.getSheetAt(index);
 		
@@ -381,7 +382,7 @@ public class XLS_Reader {
 		XSSFCellStyle style = workbook.createCellStyle();
 		style.setFillForegroundColor(HSSFColor.GREY_40_PERCENT.index);
 		XSSFCreationHelper createHelper = workbook.getCreationHelper();
-		style.setFillPattern(HSSFCellStyle.NO_FILL);
+		//style.setFillPattern(HSSFCellStyle.NO_FILL);
 		
 	    
 	

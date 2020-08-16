@@ -66,4 +66,7 @@ Default suite
 Total tests run: 2, Failures: 0, Skips: 0
 ===============================================
 
+TestNG eclipse plugin:
+dl.bintray.com/testng-team/testng-eclipse-release/ 
+
 
